@@ -1,0 +1,121 @@
+/* Kinda lazy to do the CSS, so base was taken from w3Schools.com */
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #202a30;
+    color: #ddd;
+    user-select: none;
+    margin: 0;
+    scrollbar-width: 0;
+    scrollbar-color: black;
+}
+
+label {
+    margin-left: 10px;
+    color: #78909c;
+}
+
+input {
+    color: #78909c;
+    border: 2px solid #78909c;
+    border-radius: 3px;
+    margin: 13px;
+    background-color: #202a30;
+    text-align: center;
+}
+
+#amount {
+    padding: 2px;
+    font-size: 20px;
+    width: 40px;
+}
+
+.month {
+    padding: 75px 0px ;
+    width: 100%;
+    background: #263238;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: #748892;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding: 70px 20px 70px 20px; 
+    margin: -70px 0px -20px 0px; 
+    cursor: pointer;
+}
+
+.month .prev:hover {
+    color: white;
+}
+
+.month .next {
+    float: right;
+    padding: 70px 20px 70px 20px; 
+    margin: -70px 0px -20px 0px; 
+    cursor: pointer;
+}
+
+.month .next:hover {
+    color: white;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 13px 0;
+    background-color: #37474f;
+    height: 20px;
+    text-transform: uppercase;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #ccc;
+    text-align: center;
+}
+
+.d {
+    outline: 1px solid #607080;
+}
+
+.days {
+    padding: 16px 0px 21px 21.5px;
+    margin: 0;
+    background: #1a1a1a; 
+    width: 98%;
+}
+
+.days li {
+    margin: 5px 5px 0px 0px;
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    font-size: 15px;
+    color: #ccc; 
+    cursor: crosshair;
+    height: 40px;
+    line-height: 40px;
+    padding-right: 0;
+}
+
+.active {
+    background: #263238;
+    color: white !important;
+}
